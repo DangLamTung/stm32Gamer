@@ -1022,15 +1022,11 @@ F 3 "" H 9400 2850 50  0001 C CNN
 $EndComp
 Text GLabel 950  5150 0    50   Input ~ 0
 CS
-Wire Wire Line
-	2950 5950 3500 5950
-Text GLabel 3500 5950 2    50   Input ~ 0
-DET
-Text GLabel 4300 2800 0    50   Input ~ 0
-P3
-Text GLabel 4300 2700 0    50   Input ~ 0
-P2
 Text GLabel 4300 2600 0    50   Input ~ 0
+P3
+Text GLabel 4300 2500 0    50   Input ~ 0
+P2
+Text GLabel 4300 2400 0    50   Input ~ 0
 P1
 Wire Wire Line
 	3200 4450 2950 4450
@@ -1079,89 +1075,67 @@ Connection ~ 2350 2650
 $Comp
 L Switch:SW_DIP_x01 SW2
 U 1 1 5D8989F5
-P 5150 2850
-F 0 "SW2" H 5150 3117 50  0000 C CNN
-F 1 "SW_DIP_x01" H 5150 3026 50  0000 C CNN
-F 2 "Button_Switch_THT:SW_PUSH_6mm" H 5150 2850 50  0001 C CNN
-F 3 "~" H 5150 2850 50  0001 C CNN
-	1    5150 2850
+P 5150 2650
+F 0 "SW2" H 5150 2917 50  0000 C CNN
+F 1 "SW_DIP_x01" H 5150 2826 50  0000 C CNN
+F 2 "Button_Switch_THT:SW_PUSH_6mm" H 5150 2650 50  0001 C CNN
+F 3 "~" H 5150 2650 50  0001 C CNN
+	1    5150 2650
 	1    0    0    -1  
 $EndComp
 $Comp
 L Switch:SW_DIP_x01 SW4
 U 1 1 5D899C11
-P 5150 3600
-F 0 "SW4" H 5150 3867 50  0000 C CNN
-F 1 "SW_DIP_x01" H 5150 3776 50  0000 C CNN
-F 2 "Button_Switch_THT:SW_PUSH_6mm" H 5150 3600 50  0001 C CNN
-F 3 "~" H 5150 3600 50  0001 C CNN
-	1    5150 3600
+P 5150 4050
+F 0 "SW4" H 5150 4317 50  0000 C CNN
+F 1 "SW_DIP_x01" H 5150 4226 50  0000 C CNN
+F 2 "Button_Switch_THT:SW_PUSH_6mm" H 5150 4050 50  0001 C CNN
+F 3 "~" H 5150 4050 50  0001 C CNN
+	1    5150 4050
 	1    0    0    -1  
 $EndComp
 $Comp
 L Switch:SW_DIP_x01 SW1
 U 1 1 5D89D71E
-P 5150 2450
-F 0 "SW1" H 5150 2717 50  0000 C CNN
-F 1 "SW_DIP_x01" H 5150 2626 50  0000 C CNN
-F 2 "Button_Switch_THT:SW_PUSH_6mm" H 5150 2450 50  0001 C CNN
-F 3 "~" H 5150 2450 50  0001 C CNN
-	1    5150 2450
+P 5150 2000
+F 0 "SW1" H 5150 2267 50  0000 C CNN
+F 1 "SW_DIP_x01" H 5150 2176 50  0000 C CNN
+F 2 "Button_Switch_THT:SW_PUSH_6mm" H 5150 2000 50  0001 C CNN
+F 3 "~" H 5150 2000 50  0001 C CNN
+	1    5150 2000
 	1    0    0    -1  
 $EndComp
 $Comp
 L Switch:SW_DIP_x01 SW3
 U 1 1 5D89D724
-P 5150 3250
-F 0 "SW3" H 5150 3517 50  0000 C CNN
-F 1 "SW_DIP_x01" H 5150 3426 50  0000 C CNN
-F 2 "Button_Switch_THT:SW_PUSH_6mm" H 5150 3250 50  0001 C CNN
-F 3 "~" H 5150 3250 50  0001 C CNN
-	1    5150 3250
+P 5150 3450
+F 0 "SW3" H 5150 3717 50  0000 C CNN
+F 1 "SW_DIP_x01" H 5150 3626 50  0000 C CNN
+F 2 "Button_Switch_THT:SW_PUSH_6mm" H 5150 3450 50  0001 C CNN
+F 3 "~" H 5150 3450 50  0001 C CNN
+	1    5150 3450
 	1    0    0    -1  
 $EndComp
-Text GLabel 4300 2900 0    50   Input ~ 0
+Text GLabel 4300 2700 0    50   Input ~ 0
 P4
 Wire Wire Line
-	4300 2600 4700 2600
+	4300 2400 4700 2400
 Wire Wire Line
-	4700 2600 4700 2450
+	4300 2500 4700 2500
 Wire Wire Line
-	4700 2450 4850 2450
+	4700 2500 4700 2650
 Wire Wire Line
-	4300 2700 4700 2700
+	4700 2650 4800 2650
 Wire Wire Line
-	4700 2700 4700 2850
+	4300 2600 4650 2600
 Wire Wire Line
-	4700 2850 4850 2850
+	4300 2700 4600 2700
 Wire Wire Line
-	4300 2800 4650 2800
+	5500 3250 5450 3250
 Wire Wire Line
-	4650 2800 4650 3250
+	5450 2650 5500 2650
 Wire Wire Line
-	4650 3250 4850 3250
-Wire Wire Line
-	4300 2900 4600 2900
-Wire Wire Line
-	4600 2900 4600 3600
-Wire Wire Line
-	4600 3600 4850 3600
-Wire Wire Line
-	5450 2450 5500 2450
-Wire Wire Line
-	5500 2450 5500 2850
-Wire Wire Line
-	5500 3600 5450 3600
-Wire Wire Line
-	5450 3250 5500 3250
-Connection ~ 5500 3250
-Wire Wire Line
-	5500 3250 5500 3600
-Wire Wire Line
-	5450 2850 5500 2850
-Connection ~ 5500 2850
-Wire Wire Line
-	5500 2850 5500 3050
+	5500 2650 5500 2850
 $Comp
 L power:GND #PWR011
 U 1 1 5D9875E5
@@ -1174,10 +1148,7 @@ F 3 "" H 5800 3050 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	5500 3050 5800 3050
-Connection ~ 5500 3050
-Wire Wire Line
-	5500 3050 5500 3250
+	5500 2850 5650 2850
 Wire Wire Line
 	2050 6450 2050 6900
 Wire Wire Line
@@ -1281,8 +1252,6 @@ Connection ~ 8550 4450
 Wire Wire Line
 	8550 4450 7600 4450
 Wire Wire Line
-	7800 5400 7350 5400
-Wire Wire Line
 	9150 5400 9150 5700
 $Comp
 L power:+3.3V #PWR028
@@ -1341,21 +1310,242 @@ Wire Wire Line
 Wire Wire Line
 	7600 5200 7600 5300
 Wire Wire Line
-	7600 5300 7350 5300
-Wire Wire Line
 	8600 5400 8600 5550
+Text GLabel 8850 5600 0    50   Input ~ 0
+joy1.2
+Text GLabel 8950 5800 0    50   Input ~ 0
+joy2.2
+Text GLabel 8900 5700 0    50   Input ~ 0
+push1.2
+Text GLabel 7350 5400 0    50   Input ~ 0
+push1.1
+Text GLabel 7350 5550 0    50   Input ~ 0
+joy2.1
+Text GLabel 7350 5300 0    50   Input ~ 0
+joy1.1
 Wire Wire Line
 	8600 5550 7350 5550
-Text GLabel 7350 5300 0    50   Input ~ 0
-joy1
-Text GLabel 7350 5550 0    50   Input ~ 0
-joy2
-Text GLabel 7350 5400 0    50   Input ~ 0
-push
-Text GLabel 8900 5600 0    50   Input ~ 0
-joy1
-Text GLabel 8950 5800 0    50   Input ~ 0
-joy2
-Text GLabel 8900 5700 0    50   Input ~ 0
-push
+Wire Wire Line
+	7600 5300 7350 5300
+Wire Wire Line
+	7800 5400 7350 5400
+Text GLabel 1200 5050 0    50   Input ~ 0
+push1.1
+Text GLabel 3350 3050 2    50   Input ~ 0
+joy1.1
+Text GLabel 3300 3150 2    50   Input ~ 0
+joy2.1
+Wire Wire Line
+	2950 3050 3350 3050
+Wire Wire Line
+	1200 5050 1550 5050
+Wire Wire Line
+	2950 3150 3300 3150
+Text GLabel 3350 3350 2    50   Input ~ 0
+joy2.2
+Text GLabel 3300 3250 2    50   Input ~ 0
+joy1.2
+Text GLabel 1200 4950 0    50   Input ~ 0
+push1.2
+Wire Wire Line
+	2950 3250 3300 3250
+Wire Wire Line
+	1200 4950 1550 4950
+Wire Wire Line
+	3350 3350 2950 3350
+Wire Wire Line
+	2950 5950 3500 5950
+Text GLabel 3500 5950 2    50   Input ~ 0
+DET
+$Comp
+L Device:C C?
+U 1 1 5E105264
+P 5100 2250
+F 0 "C?" V 4848 2250 50  0000 C CNN
+F 1 "C" V 4939 2250 50  0000 C CNN
+F 2 "" H 5138 2100 50  0001 C CNN
+F 3 "~" H 5100 2250 50  0001 C CNN
+	1    5100 2250
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 5E15718F
+P 5150 3000
+F 0 "C?" V 4898 3000 50  0000 C CNN
+F 1 "C" V 4989 3000 50  0000 C CNN
+F 2 "" H 5188 2850 50  0001 C CNN
+F 3 "~" H 5150 3000 50  0001 C CNN
+	1    5150 3000
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 5E180B25
+P 5150 3700
+F 0 "C?" V 4898 3700 50  0000 C CNN
+F 1 "C" V 4989 3700 50  0000 C CNN
+F 2 "" H 5188 3550 50  0001 C CNN
+F 3 "~" H 5150 3700 50  0001 C CNN
+	1    5150 3700
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 5E1BD698
+P 5100 4350
+F 0 "C?" V 4848 4350 50  0000 C CNN
+F 1 "C" V 4939 4350 50  0000 C CNN
+F 2 "" H 5138 4200 50  0001 C CNN
+F 3 "~" H 5100 4350 50  0001 C CNN
+	1    5100 4350
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	4800 2650 4800 3000
+Wire Wire Line
+	4800 3000 5000 3000
+Connection ~ 4800 2650
+Wire Wire Line
+	4800 2650 4850 2650
+Wire Wire Line
+	5300 3000 5500 3000
+Wire Wire Line
+	5500 3000 5500 2850
+Connection ~ 5500 2850
+Wire Wire Line
+	4850 3450 4850 3700
+Wire Wire Line
+	4850 3700 5000 3700
+Wire Wire Line
+	5300 3700 5450 3700
+Wire Wire Line
+	5450 3700 5450 3450
+Wire Wire Line
+	5450 3450 5650 3450
+Wire Wire Line
+	5650 3450 5650 2850
+Connection ~ 5450 3450
+Connection ~ 5650 2850
+Wire Wire Line
+	5650 2850 5800 2850
+Wire Wire Line
+	5800 2850 5800 3050
+Wire Wire Line
+	5250 4350 5450 4350
+Wire Wire Line
+	5450 4350 5450 4050
+Wire Wire Line
+	4850 4050 4850 4350
+Wire Wire Line
+	4850 4350 4950 4350
+Wire Wire Line
+	5450 4050 5650 4050
+Wire Wire Line
+	5650 4050 5650 3450
+Connection ~ 5450 4050
+Connection ~ 5650 3450
+Wire Wire Line
+	4850 4050 4600 4050
+Wire Wire Line
+	4600 4050 4600 2700
+Connection ~ 4850 4050
+Wire Wire Line
+	4650 2600 4650 3450
+Wire Wire Line
+	4650 3450 4850 3450
+Connection ~ 4850 3450
+Wire Wire Line
+	5250 2250 5450 2250
+Wire Wire Line
+	5450 2250 5450 2000
+Wire Wire Line
+	5450 2000 5650 2000
+Wire Wire Line
+	5650 2000 5650 2850
+Connection ~ 5450 2000
+Wire Wire Line
+	4850 2250 4950 2250
+Wire Wire Line
+	4850 2000 4850 2250
+Wire Wire Line
+	4850 2000 4700 2000
+Wire Wire Line
+	4700 2000 4700 2400
+Connection ~ 4850 2000
+$Comp
+L Device:Crystal Y?
+U 1 1 5E2CEB08
+P 5700 6200
+F 0 "Y?" V 5654 6331 50  0000 L CNN
+F 1 "Crystal" V 5745 6331 50  0000 L CNN
+F 2 "Crystal:Crystal_SMD_0603-2Pin_6.0x3.5mm" H 5700 6200 50  0001 C CNN
+F 3 "~" H 5700 6200 50  0001 C CNN
+	1    5700 6200
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 5E2CEB0E
+P 5900 6400
+F 0 "C?" V 5648 6400 50  0000 C CNN
+F 1 "22p" V 5739 6400 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 5938 6250 50  0001 C CNN
+F 3 "~" H 5900 6400 50  0001 C CNN
+	1    5900 6400
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 5E2CEB14
+P 5900 6000
+F 0 "C?" V 5648 6000 50  0000 C CNN
+F 1 "22p" V 5739 6000 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 5938 5850 50  0001 C CNN
+F 3 "~" H 5900 6000 50  0001 C CNN
+	1    5900 6000
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	6050 6400 6050 6200
+Wire Wire Line
+	5750 6400 5700 6400
+Wire Wire Line
+	5700 6400 5700 6350
+Wire Wire Line
+	5750 6000 5700 6000
+Wire Wire Line
+	5700 6000 5700 6050
+Wire Wire Line
+	5700 6400 5500 6400
+Connection ~ 5700 6400
+Connection ~ 5700 6000
+Text GLabel 5500 6400 0    50   Input ~ 0
+RTC_OSC_IN
+Text GLabel 5550 6000 0    50   Input ~ 0
+RTC_OSC_OUT
+Wire Wire Line
+	5700 6000 5550 6000
+$Comp
+L power:GND #PWR?
+U 1 1 5E2CEB25
+P 6050 6200
+F 0 "#PWR?" H 6050 5950 50  0001 C CNN
+F 1 "GND" V 6055 6072 50  0000 R CNN
+F 2 "" H 6050 6200 50  0001 C CNN
+F 3 "" H 6050 6200 50  0001 C CNN
+	1    6050 6200
+	0    -1   -1   0   
+$EndComp
+Connection ~ 6050 6200
+Wire Wire Line
+	6050 6200 6050 6000
+Wire Wire Line
+	1550 6250 1350 6250
+Text GLabel 1350 6250 0    50   Input ~ 0
+RTC_OSC_IN
+Text GLabel 1350 6150 0    50   Input ~ 0
+RTC_OSC_OUT
+Wire Wire Line
+	1350 6150 1550 6150
 $EndSCHEMATC
